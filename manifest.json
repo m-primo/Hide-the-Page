@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Hide the Page",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This browser extension hides your page if you don't want anyone to see it when they around you.",
     "icons": {
         "16": "img/icon.png",
@@ -16,7 +16,6 @@
     "options_page": "options.html",
     "permissions": [
         "activeTab",
-        "tabs",
         "<all_urls>",
         "storage"
     ]
