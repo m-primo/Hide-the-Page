@@ -1,17 +1,32 @@
-<img src="img/icon.svg" width="512">
+# Hide the Page
 
-# Hide the Page (V1.0.0)
-This browser extension hides your page if you don't want anyone to see it when they around you.
+![icon](img/icon.svg)
+
+This browser extension hides your page if you don't want anyone to see it when they are around you.
 You can use your own custom html code to show, instead of just a blank page.
 
-## Why our extension?
+## Why this extension?
+
 - Only by one click.
 - Open-Source.
 
+## Chrome Extension
+
+<https://chromewebstore.google.com/detail/hide-the-page/kfcknlmnhilpgggpjhbiffbhnagebhin>
+
+## Screenshots
+
+![popup-ui.jpg](./screenshots/popup-ui.jpg)
+![options-ui.jpg](./screenshots/options-ui.jpg)
+![not-hidden.jpg](./screenshots/not-hidden.jpg)
+![hidden-page.jpg](./screenshots/hidden-page.jpg)
+![hidden-page-custom-code.png](./screenshots/hidden-page-custom-code.png)
+![hidden-page-custom-code-2.jpg](./screenshots/hidden-page-custom-code-2.jpg)
+
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
