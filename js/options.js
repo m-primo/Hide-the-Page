@@ -3,7 +3,7 @@ function getId(id) {
 }
 // =============================================================================
 chrome.storage.sync.get(['theCustomCode'],function(result){
-    getId('customCode').value = result.theCustomCode;
+    getId('customCode').value = result.theCustomCode || '';
 });
 
 getId('saveButton').addEventListener('click',function(){

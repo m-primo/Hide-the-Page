@@ -2,7 +2,7 @@ console.log('cscript3: loaded');
 
 var custom_code;
 chrome.storage.sync.get(['theCustomCode'],function(result){
-    custom_code = result.theCustomCode;
+    custom_code = result.theCustomCode || '';
     document.getElementsByTagName('body')[0].innerHTML = '<div id="cScript3_theCustom--check" style="display:block;">'+custom_code+'</div><div id="cScript3_hideCustom--check" style="display:none;">'+document.getElementsByTagName('body')[0].innerHTML+'</div>';
 });
 
